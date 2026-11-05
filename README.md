@@ -4,6 +4,7 @@ Stops the **Sky Go desktop app for macOS** from quitting with *"Sky Go quit unex
 
 It does not modify Sky Go, does not touch DRM or the video stream, and can be removed at any time.
 Not affiliated with or endorsed by Sky. 🇮🇹 [Italiano più sotto](#italiano).
+Questions and reports: [thread on the Sky Community forum](https://helpforum.sky.com/t5/Sky-Go/Sky-Go-for-Mac-quits-unexpectedly-EXC-BAD-ACCESS-in-szone-pressure-relief-unofficial-workaround/m-p/5411240) or a GitHub issue.
 
 ## Is this your crash?
 
