@@ -1,0 +1,6 @@
+build/
+diagnostics/
+.playwright-mcp/
+skywin.js
+*.log
+.DS_Store
