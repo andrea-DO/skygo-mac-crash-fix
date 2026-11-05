@@ -15,7 +15,9 @@ It is this bug if you see all of these:
 - `Triggered by Thread: …, Dispatch Queue: com.apple.libdispatch-manager`
 - in that thread's stack: `szone_pressure_relief`, `malloc_zone_pressure_relief`, `malloc_memory_event_handler`
 
-The same signature has been reported on the Sky Community forum with Sky Go 26.1.3 to 26.2.4 on macOS 26 and 27.
+The same signature has been reported on the Sky Community forum with Sky Go 26.1.3 to 26.3.3 on macOS 26 and 27.
+It is not the crash *at launch* that many Macs, Intel ones included, hit with 26.3.2 around 24 October 2026:
+that one has a different stack (`NSButtonCell`) and this fix does not address it.
 Reinstalling Sky Go, clearing its data or reinstalling Rosetta does not help.
 
 ## What is going on
